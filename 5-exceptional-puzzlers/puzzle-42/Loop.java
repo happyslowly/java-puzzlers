@@ -20,3 +20,6 @@ public class Loop {
         return a.length >= 3 & a[2] == 3;
     }
 }
+// line 22:
+// '&' is overloaded when both operand are boolean, similar as 'AND', but it evaluates both side
+// '|' is the same

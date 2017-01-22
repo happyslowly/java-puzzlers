@@ -1,14 +1,24 @@
 public class UnwelcomeGuest {
     public static final long GUEST_USER_ID = -1;
 
-    private static final long USER_ID;
+    private static final long USER_ID = init();
 
+    /*
     static {
         try {
             USER_ID = getUserIdFromEnvironment();
         } catch (IdUnavailableException e) {
             USER_ID = GUEST_USER_ID;
             System.out.println("Logging in as guest");
+        }
+    }
+    */
+
+    private static long init() {
+        try {
+            return getUserIdFromEnvironment();
+        } catch (IdUnavailableException e) {
+            return GUEST_USER_ID;
         }
     }
 
@@ -24,3 +34,4 @@ public class UnwelcomeGuest {
 
 class IdUnavailableException extends Exception {
 }
+// USER_ID is assigned twice

@@ -7,3 +7,4 @@ public class Strange1 {
         }
     }
 }
+// Looks like it is caught under java7

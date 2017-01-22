@@ -7,3 +7,5 @@ public class Count {
         System.out.println(count);
     }
 }
+// count is 0.
+// (float)2000000000 == 2000000000 + 50

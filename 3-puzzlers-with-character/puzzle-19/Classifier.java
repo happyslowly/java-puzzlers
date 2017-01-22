@@ -1,7 +1,7 @@
 public class Classifier {
     public static void main(String[] args) {
         System.out.println(
-            classify('n') + classify('+') + classify('2')); 
+                classify('n') + classify('+') + classify('2'));
     }
 
     static String classify(char ch) {
@@ -9,11 +9,12 @@ public class Classifier {
             return "NUMERAL ";
         if ("abcdefghijklmnopqrstuvwxyz".indexOf(ch) >= 0)
             return "LETTER ";
-/*
- *      (Operators not supported yet) 
- *      if ("+-*/&|!=".indexOf(ch) >= 0)
- *          return "OPERATOR "; 
- */
-        return "UNKNOWN "; 
-    } 
+
+//        (Operators not supported yet)
+//        if ("+-*/&|!=".indexOf(ch) >= 0)
+//            return "OPERATOR ";
+
+        return "UNKNOWN ";
+    }
 }
+// not compile, nest block comment. Fixed line 13 - 15

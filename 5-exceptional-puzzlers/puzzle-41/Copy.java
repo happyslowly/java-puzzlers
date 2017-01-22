@@ -24,3 +24,4 @@ public class Copy {
             copy(args[0], args[1]);
     }
 }
+// in.close() or out.close() could throw IOException, which leaves streams partially closed

@@ -6,3 +6,5 @@ class BigDelight {
         }
     }
 }
+// 0x90 == 144
+// byte.min = -128, byte.max = 127

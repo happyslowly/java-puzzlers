@@ -8,3 +8,4 @@ public class HelloGoodbye {
         }
     }
 }
+// System.exit(0) cause current JVM thread to terminated

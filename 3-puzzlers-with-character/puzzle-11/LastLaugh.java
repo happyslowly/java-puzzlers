@@ -4,3 +4,4 @@ public class LastLaugh {
         System.out.print('H' + 'a');
     }
 }
+// line 5, there's no '+' overload for char type, each will be promoted to int

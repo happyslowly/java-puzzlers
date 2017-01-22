@@ -6,3 +6,4 @@ public class Increment {
         System.out.println(j);
     }
 }
+// j is reassigned to 0 every time

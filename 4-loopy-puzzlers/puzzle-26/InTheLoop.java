@@ -9,3 +9,5 @@ public class InTheLoop {
         System.out.println(count);
     }
 }
+// Integer.MAX_VALUE + 1 = Integer.MIN_VALUE
+// i <= END is always true

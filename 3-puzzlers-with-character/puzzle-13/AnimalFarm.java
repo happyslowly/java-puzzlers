@@ -4,6 +4,8 @@ public class AnimalFarm {
         final String dog = "length: " + pig.length();
 
         System.out.println("Animals are equal: "
-                           + pig == dog);
+                + pig == dog);
     }
 }
+// false, '==' is lower than '+'
+// pig and dog are different objects, even though pig is interned.
