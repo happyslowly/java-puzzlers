@@ -14,6 +14,7 @@ public class SuspiciousSort {
             }
         };
         Arrays.sort(arr, cmp);
+        System.out.println(Arrays.toString(arr));
         System.out.println(order(arr));
     }
 
@@ -37,3 +38,4 @@ public class SuspiciousSort {
         return Order.UNORDERED;      // Array is not sorted 
     } 
 }
+// overflow happens at line 13

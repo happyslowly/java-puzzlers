@@ -1,3 +1,5 @@
+package p57;
+
 import java.util.*;
 
 public class Name {
@@ -22,3 +24,5 @@ public class Name {
             s.contains(new Name("Mickey", "Mouse")));
     } 
 }
+// print false
+// hashCode() needs to be overridden

@@ -11,3 +11,4 @@ public class Differences {
         System.out.println(diffs.size());
     }
 }
+// 012 is a octal value which is 10 ...

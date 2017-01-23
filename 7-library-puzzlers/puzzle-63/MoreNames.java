@@ -17,3 +17,4 @@ public class MoreNames {
         System.out.println(moreNames.size());
     } 
 }
+// line 6, it isn't a constructor

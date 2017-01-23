@@ -14,3 +14,5 @@ public class BigProblem {
         System.out.println(total);
     }
 }
+// print 0
+// BigInteger is immutable

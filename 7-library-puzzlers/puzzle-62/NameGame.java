@@ -8,3 +8,4 @@ public class NameGame {
         System.out.println(m.size());
     } 
 }
+// "Mickey" is interned

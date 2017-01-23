@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class OneLiners {
     public static void main(String[] args) {
         // Part A
@@ -24,20 +23,27 @@ public class OneLiners {
     // Part A
     static <E> List<E> withoutDuplicates(List<E> original) {
         // Your code goes here
+        return new ArrayList<E>(new LinkedHashSet<E>(original));
     }
 
     // Part B
     static String[] parse(String string) {
         // Your code goes here
+        return string.split(",\\s*");
     }
 
     // Part C
     static String arrayToString(Object[] array) {
         // Your code goes here
+        return Arrays.deepToString(array);
     }
 
     // Part D
     static boolean hasMoreBitsSet(int i, int j) {
         // Your code goes here
+        return Integer.toBinaryString(i).replace("0", "").length() >
+                Integer.toBinaryString(j).replace("0", "").length();
+
+        // return Integer.bitCount(i) > Integer.bitCount(j);
     }
 }

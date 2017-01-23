@@ -10,3 +10,4 @@ public class DatingGame {
         System.out.println(d.getDay());
     }
 }
+// line 6, month starts with 0

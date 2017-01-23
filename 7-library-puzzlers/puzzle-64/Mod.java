@@ -13,3 +13,4 @@ public class Mod {
             System.out.println(histogram[j] + " ");
     } 
 }
+// line 9, Math.abs return Integer.MIN_VALUE when input is Integer.MIN_VALUE

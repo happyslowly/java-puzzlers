@@ -1,3 +1,5 @@
+package p58;
+
 import java.util.*;
 
 public class Name {
@@ -22,3 +24,4 @@ public class Name {
             s.contains(new Name("Donald", "Duck")));
     }
 }
+// print false
