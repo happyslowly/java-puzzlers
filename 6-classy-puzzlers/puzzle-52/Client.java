@@ -4,12 +4,14 @@ class Cache {
     }
 
     private static int sum;
+
     public static int getSum() {
         initializeIfNecessary();
         return sum;
     }
 
     private static boolean initialized = false;
+
     private static synchronized void initializeIfNecessary() {
         if (!initialized) {
             for (int i = 0; i < 100; i++)
@@ -21,6 +23,7 @@ class Cache {
 
 public class Client {
     public static void main(String[] args) {
-        System.out.println(Cache.getSum()); 
-    } 
+        System.out.println(Cache.getSum());
+    }
 }
+// pay attention to initialization order

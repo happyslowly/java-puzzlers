@@ -4,3 +4,4 @@ public class Type1 {
         System.out.println(s instanceof String);
     }
 }
+// return false when left operand is null

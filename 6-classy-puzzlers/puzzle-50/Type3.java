@@ -3,3 +3,4 @@ public class Type3 {
         Type3 t2 = (Type3) new Object();
     }
 }
+// ClassCastException

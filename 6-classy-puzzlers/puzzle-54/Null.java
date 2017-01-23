@@ -5,5 +5,6 @@ public class Null {
 
     public static void main(String[] args) {
         ((Null) null).greet();
-    } 
+    }
 }
+// print "Hello World!", null is ignored.
