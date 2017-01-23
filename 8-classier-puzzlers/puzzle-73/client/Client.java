@@ -9,5 +9,5 @@ import library.Api;
  * remains commented out.
  */
 public class Client {
-
+    String s = Api.newString();
 }

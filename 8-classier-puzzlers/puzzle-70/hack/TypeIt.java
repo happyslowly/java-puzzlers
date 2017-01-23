@@ -13,3 +13,5 @@ public class TypeIt {
         clickit.doIt();
     }
 }
+// print Click
+// A package-private method cannot be overridden by a method in a different package

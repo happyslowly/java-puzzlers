@@ -8,4 +8,7 @@ public class Conundrum {
 final class Enigma {
     // Provide a class body that makes Conundrum print false.
     // Do *not* override equals.
+    public boolean equals(Enigma e) {
+        return false;
+    }
 }

@@ -7,5 +7,8 @@ package library;
  * or interfaces Api may extend or implement.
  */
 public final class Api {
-
+//    private static class String {}
+    public static String newString() {
+        return new String();
+    }
 }

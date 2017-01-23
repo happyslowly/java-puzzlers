@@ -30,3 +30,4 @@ class Tails extends CoinSide {
         return "tails";
     }
 }
+// won't compile before java 1.5, @line 7

@@ -1,6 +1,7 @@
 public class FadeToBlack {
     // This method should read and print the value of the field Z in class X.Y
     public static void main(String[] args){
+        System.out.println(((X.Y)null).Z);
     }
 }
 

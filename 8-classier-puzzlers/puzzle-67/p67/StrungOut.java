@@ -1,3 +1,5 @@
+package p67;
+
 public class StrungOut {
     public static void main(String[] args) {
         String s = new String("Hello world");
@@ -16,3 +18,5 @@ class String {
         return s;
     }
 }
+// line 4, it is not the main method, because the parameter is not the java.lang.String
+// Avoid reusing the names of platform classes, and never reuse class names from java.lang
