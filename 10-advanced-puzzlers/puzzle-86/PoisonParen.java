@@ -7,4 +7,6 @@ public class PoisonParen {
      * parentheses.  Recompile the program. If it no longer compiles, then
      * you've solved the puzzle!
      */
+    int i = -2147483648;
+    //int i = -(2147483648);
 }

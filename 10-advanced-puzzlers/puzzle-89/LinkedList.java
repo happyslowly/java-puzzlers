@@ -8,8 +8,8 @@ public class LinkedList<E> {
         // Node constructor links the node as a new head
         Node(E value) {
             this.value = value;
-            this.next = head;
-            head = this;
+//            this.next = head;
+//            head = this;
         }
     }
 
@@ -30,3 +30,4 @@ public class LinkedList<E> {
         list.dump();
     }
 }
+// won't compile. different types in line 11-12

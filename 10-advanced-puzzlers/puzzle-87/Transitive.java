@@ -5,10 +5,9 @@ public class Transitive {
          * that causes this program to print "true true false", then
          * you have proven that the == operator is not transitive.
          */
-        <typeX> x = <valueX>;
-        <typeY> y = <valueY>;
-        <typeZ> z = <valueZ>;
-
+        float x = Integer.MAX_VALUE;
+        int y = Integer.MAX_VALUE;
+        double z = Integer.MAX_VALUE;
         System.out.print ((x == y) + " ");
         System.out.print ((y == z) + " ");
         System.out.println(x == z);
