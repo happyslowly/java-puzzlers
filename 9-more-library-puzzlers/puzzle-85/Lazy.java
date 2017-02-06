@@ -19,3 +19,4 @@ public class Lazy {
         System.out.println(initialized);
     }
 }
+// dead lock. Both the main thread and thread t are initializing the class

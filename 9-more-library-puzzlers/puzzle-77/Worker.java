@@ -37,3 +37,5 @@ public class Worker extends Thread {
         worker.quit();
     }
 }
+// program hang. Line 19, the join release the lock, then acquired by the timer.
+// Implement the Runnable interface instead of extending from Thread class.

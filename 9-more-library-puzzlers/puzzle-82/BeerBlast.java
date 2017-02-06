@@ -18,3 +18,5 @@ public class BeerBlast {
         }
     }
 }
+// Actually the program hangs. Subprocess's output streams(stdout and stderr) need to drained to avoid block
+// And stdout and stderr need to be drained concurrently.

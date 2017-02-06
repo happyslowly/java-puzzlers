@@ -13,3 +13,6 @@ public class Outer {
         }
     }
 }
+// throw NoSuchMethodException.
+// The signature of the default constructor for Inner is:
+// Inner(Outer outer)

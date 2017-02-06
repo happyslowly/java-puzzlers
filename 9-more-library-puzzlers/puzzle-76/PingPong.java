@@ -11,3 +11,4 @@ public class PingPong {
         System.out.print("Pong");
     }
 }
+// print "PingPong", only main thread

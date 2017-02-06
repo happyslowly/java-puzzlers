@@ -9,3 +9,4 @@ public class Reflector {
         System.out.println(m.invoke(it));
     }
 }
+// IllegalAccessException, cannot access HashMap.HashIterator (package level access)

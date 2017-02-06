@@ -5,4 +5,10 @@ public class Dog extends Exception {
     public String toString() {
         return "Woof";
     }
+
+    /*
+    private Object readResolve() {
+        return INSTANCE;
+    }
+    */
 }

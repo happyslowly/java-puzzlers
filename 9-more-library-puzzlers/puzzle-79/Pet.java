@@ -25,7 +25,7 @@ public class Pet {
                 while (true) {
                     eat();
                     play();
-                    sleep();
+//                    sleep();
                 }
             }
         }.start();
@@ -35,3 +35,4 @@ public class Pet {
         new Pet("Fido", "beef", "Woof").live();
     }
 }
+// Cannot compile. Line 28, sleep shadows the original sleep method.

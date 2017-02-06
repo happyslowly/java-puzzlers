@@ -9,3 +9,6 @@ public class SelfInterruption {
         }
     }
 }
+// print "Interrupted: false"
+// Thread.interrupted() clear the interrupted status
+// Use Thread.currentThread().isInterrupted() instead.

@@ -5,3 +5,4 @@ public class Greeter {
             System.out.write(greeting.charAt(i));
     }
 }
+// nothing, System.out isn't flushed
