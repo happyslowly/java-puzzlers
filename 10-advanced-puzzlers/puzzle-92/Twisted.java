@@ -17,3 +17,4 @@ public class Twisted {
         new Twisted("main").reproduce();
     }
 }
+// print "main", private members are never inherited

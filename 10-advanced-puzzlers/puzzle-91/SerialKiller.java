@@ -5,8 +5,10 @@ public class SerialKiller {
     public static void main(String[] args) {
         Sub sub = new Sub(666); 
         sub.checkInvariant();
+        System.out.println(sub.set);
 
         Sub copy = (Sub) deepCopy(sub);
+        System.out.println(copy.set);
         copy.checkInvariant();
     }
 

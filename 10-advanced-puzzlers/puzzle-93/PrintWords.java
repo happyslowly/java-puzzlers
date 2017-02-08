@@ -5,3 +5,6 @@ public class PrintWords {
                            Words.THIRD);
     }
 }
+// print "the chemistry set"
+// reference to constant fields are resolved at compile time
+// null is not a compile time constant expression
